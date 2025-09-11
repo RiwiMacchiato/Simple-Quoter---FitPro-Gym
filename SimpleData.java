@@ -94,5 +94,6 @@ public class SimpleData {
             }
 
         }
+        sc.close();
     }
 }
