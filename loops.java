@@ -1,14 +1,15 @@
+
+// import javax.swing.JOptionPane;
+import java.util.Random;
 import java.util.Scanner;
-import javax.swing.JOptionPane;
 
 public class loops {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-
-        // 1.
         while (true) {
 
+            // 1.
             int number;
             int factorial = 1;
 
@@ -28,11 +29,19 @@ public class loops {
             }
 
             // 2.
+            Random rand = new Random();
+            int secretNumber;
+            int maximumAttempts;
+            int attemptsUsed;
+            boolean correct;
 
-            char[] volwels = {'a', 'e', 'i', 'o', 'u'};
 
-            String selected = (String) JOptionPane.showInputDialog(null, "Selecciona una opción:",
-                    "Select", JOptionPane.QUESTION_MESSAGE, null, volwels, volwels[0]);
+
+            // char[] volwels = {'a', 'e', 'i', 'o', 'u'};
+
+            // String selected = (String) JOptionPane.showInputDialog(null, "Selecciona una
+            // opción:",
+            // "Select", JOptionPane.QUESTION_MESSAGE, null, volwels, volwels[0]);
 
 
 
