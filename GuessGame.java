@@ -7,7 +7,7 @@ public class GuessGame {
         int guess;
         int attempts = 0;
 
-        System.out.println("¡Juego de adivinanza!");
+        System.out.println("Juego de adivinanza!");
         System.out.println("Descubre el numero entre 1 y 100.");
 
         do {
@@ -17,6 +17,7 @@ public class GuessGame {
                 sc.next();
             }
             guess = sc.nextInt();
+            sc.nextLine();
 
             if (guess == 0) {
                 System.out.println("Saliendo del juego. El numero era: " + secretNumber);
@@ -38,5 +39,7 @@ public class GuessGame {
                 }
             }
         } while (guess != secretNumber);
+        System.out.println("Oprima 'Enter' para continuar");
+        sc.nextLine();
     }
 }
