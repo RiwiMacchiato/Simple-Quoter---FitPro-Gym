@@ -11,7 +11,7 @@ public class loops {
             System.out.println("\n" + "=".repeat(50));
             System.out.println("         EJERCICIO 1 - FACTORIAL");
             System.out.println("=".repeat(50));
-            
+
             int number;
             int factorial = 1;
 
@@ -34,7 +34,7 @@ public class loops {
             System.out.println("\n" + "=".repeat(50));
             System.out.println("         EJERCICIO 2 - ADIVINA EL NUMERO");
             System.out.println("=".repeat(50));
-            
+
             Random rand = new Random();
 
             int secretNumber = rand.nextInt(100) + 1;
@@ -81,7 +81,7 @@ public class loops {
             System.out.println("\n" + "=".repeat(50));
             System.out.println("         EJERCICIO 3 - SUMA Y MEDIA");
             System.out.println("=".repeat(50));
-            
+
             int sum = 0;
             int counter = 0;
             double average;
@@ -116,9 +116,9 @@ public class loops {
             System.out.println("\n" + "=".repeat(50));
             System.out.println("         EJERCICIO 4 - CONTEO POSITIVOS/NEGATIVOS/CERO");
             System.out.println("=".repeat(50));
-            
-            int totalNumbers, inputNumber;
-            int positiveCount = 0, negativeCount = 0, zeroCount = 0;
+
+            int inputNumber;
+            int totalNumbers = 0, positiveCount = 0, negativeCount = 0, zeroCount = 0;
 
             do {
                 System.out.println("\nCuantos numeros desea introducir?");
@@ -166,7 +166,7 @@ public class loops {
             System.out.println("\n" + "=".repeat(50));
             System.out.println("         EJERCICIO 5 - VALIDADOR DE VOCALES");
             System.out.println("=".repeat(50));
-            
+
             String inputLine;
             char character;
 
@@ -200,7 +200,7 @@ public class loops {
             System.out.println("\n" + "=".repeat(50));
             System.out.println("         EJERCICIO 6 - NUMEROS PARES EN RANGO");
             System.out.println("=".repeat(50));
-            
+
             int lowerLimit, upperLimit;
 
             System.out.println("\nIntroduzca el primer numero:");
@@ -246,7 +246,7 @@ public class loops {
             System.out.println("\n" + "=".repeat(50));
             System.out.println("         EJERCICIO 7 - TABLA DE MULTIPLICAR");
             System.out.println("=".repeat(50));
-            
+
             int tableNumber;
 
             System.out.println("\nIntroduzca el numero para mostrar su tabla de multiplicar:");
@@ -266,7 +266,7 @@ public class loops {
             System.out.println("\n" + "=".repeat(50));
             System.out.println("         EJERCICIO 8 - INTERVALO CON VALIDACIONES");
             System.out.println("=".repeat(50));
-            
+
             int intervalLower = 0, intervalUpper = 0, intervalInput;
             int intervalSum = 0;
             int numbersOutside = 0;
@@ -346,7 +346,7 @@ public class loops {
             System.out.println("\n" + "=".repeat(50));
             System.out.println("         EJERCICIO 9 - POTENCIA SIN OPERADOR");
             System.out.println("=".repeat(50));
-            
+
             double base;
             int exponent;
             double result = 1.0;
@@ -383,7 +383,7 @@ public class loops {
             System.out.println("\n" + "=".repeat(50));
             System.out.println("         EJERCICIO 10 - TABLAS MULTIPLES (1-5)");
             System.out.println("=".repeat(50));
-            
+
             System.out.println("\nTablas de multiplicar del 1 al 5:");
 
             for (int table = 1; table <= 5; table++) {
